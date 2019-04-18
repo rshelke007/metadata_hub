@@ -1,0 +1,99 @@
+-Talend is a software integration platform which provides solutions for Data integration, Data quality, Data management, Data Preparation and Big Data. 
+-Talend Open Studio is a free open source ETL tool for Data Integration and Big Data. 
+-It has various components we can drag & drop
+
+- Steps for Creating a Project
+- Steps for Importing a Project
+- Steps forExporting a Project
+
+-Components for Data Integration in Talend
+
+-Creating a Job
+-Adding Components to a Job
+- Handling Job Execution - debugging,running
+
+
+The Talend Administration Center MetaServlet command-line tool is available in the following folder of the Talend Administration Center installation directory:
+
+<tomcat_path>/webapps/org.talend.administrator/WEB-INF/classes/MetaServletCaller.bat on Windows
+
+<tomcat_path>/webapps/org.talend.administrator/WEB-INF/classes/MetaServletCaller.sh on Linux
+
+
+- Execution History page of Talend Administration Center.
+*********
+ Job Conductor Log Files
+
+-<Servers>/apache-tomcat-xxx/logs .
+
+: <Job Server install dir>\TalendJobServersFiles\jobexecutions\logs
+<Job Server install dir>\TalendJobServersFiles\jobexecutions\logs
+
+**********
+/data/talend631/executionLogs
+
+
+
+log path jo set karoge us folder ke andar executionLogs nam ka folder hoga .. uske andar you will get execustion history file 
+
+TAC database contains all user/project/execution information, you may dig all userful information from here.
+
+
+
+
+
+
+**********************
+
+for executation/operational history file : TAC database contains all user/project/execution information, you may dig all userful information from here.
+
+and for local system: log path jo set karoge us folder ke andar executionLogs nam ka folder hoga .. uske andar you will get execustion history file 
+
+*************************
+ <Job Server install dir>\TalendJobServersFiles\jobexecutions\logs
+
+
+
+
+
+************
+
+After connecting to the data source, Tableau captures the metadata details of the source like the columns and their data types.
+ This is used to create the dimensions, measures, and calculated fields used in views.
+ You can browse the metadata and change some of its properties for some specific requirements.
+
+************
+
+talent to github
+
+When launching Talend Studio, you can connect to a local repository where you store the data for your projects,
+ including Jobs and business models, metadata, routines, etc. 
+You can also connect to a remote repository where you store the same type of data to work collaboratively on projects.
+
+1.On the login window of Talend Studio, click the Manage Connections button to open the repository connection setup dialog box.
+
+From the Repository list, select Local.
+
+If needed, type in a name and a description for your connection in the relevant fields.
+
+In the User E-mail field, type in the email address that will be used as your user login. This field is compulsory to be able to use Talend Studio.
+
+Be aware that the email entered is never used for purposes other than logging in.
+
+By default, the Workspace field shows the path to the current workspace directory which contains all of the folders belonging to the project created. To change the workspace directory, type in the name of an existing directory or click the [...] button next to the Workspace field and browse to your preferred workspace directory. Upon changing your workspace directory, unless it is the first startup, you need to restart your Talend Studio by clicking the Restart button back on the login window for your change to take effect.
+
+For more information about workspace directories, see Working with different workspace directories.
+
+If needed, click the plus [+] button in the lower left corner and set the connection information to add as many connections as needed.
+
+To edit a connection, select the connection and edit the connection details following the steps above.
+
+To remove a connection, select the connection and click the [X] button.
+
+Click OK to validate your changes and return to the login window.
+
+
+
+
+
+

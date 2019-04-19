@@ -1,2 +1,2 @@
 # metadata_hub
-This repository contains metadata which is generated in Talend
+This repository contains metadata which is generated in Talend .
